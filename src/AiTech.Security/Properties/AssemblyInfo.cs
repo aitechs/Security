@@ -1,15 +1,15 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿using System.Runtime.CompilerServices;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Authentication")]
+[assembly: AssemblyTitle("AiTech.UserAccount")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Authentication")]
+[assembly: AssemblyProduct("AiTech.UserAccount")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0408e3a9-88ed-4b29-9e51-0f526be0c2ce")]
+[assembly: Guid("b5e4aa9d-71ee-469e-9389-bf2ff9ab83d4")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -33,4 +33,8 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.28")]
+[assembly: InternalsVisibleTo("AiTech.Security.Tests")]
+[assembly: InternalsVisibleTo("AiTech.Security.Explorables")]
+[assembly: InternalsVisibleTo("AiTech.Security.Tests1")]
+
